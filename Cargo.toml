@@ -1,0 +1,15 @@
+[package]
+name = "schnorr_hash_err"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+bitcoin = "0.31"
+#bitcoin = { git = "https://github.com/rust-bitcoin/rust-bitcoin", branch = "master" }
+bitcoin_hashes = "0.13"
+bitcoinconsensus = { path = "../rust-bitcoinconsensus" }
+#bitcoinconsensus = { git = "https://github.com/panicfarm/rust-bitcoinconsensus.git", branch = "master" }
+secp256k1 = "0.28"
+hex_lit = "0.1"
+hex = "0.4"
